@@ -2,7 +2,8 @@
 
 This README outlines the details of collaborating on this Ember application.
 
-An interactive application introducing the key features of Ember. Built in Ember of course!
+An interactive application introducing the key features of Ember. Built with the lovable Ember/Bootstrap combo!
+
 
 ## Prerequisites
 
