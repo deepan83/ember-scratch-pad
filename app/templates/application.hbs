@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {{#link-to 'application' class="navbar-brand"}}Ember Scratch Pad{{/link-to}}
+      {{#link-to 'application' class="navbar-brand"}}Ember it!{{/link-to}}
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,28 +64,8 @@
 
 <div class="col-sm-9">
 	<h1>Application route</h1>
-	<p>This is the application route. Templates of the application's child routes get appended to the application template's outlet by default and ember updates the URL to reflect the current route.<code></code></p>
+	<p>This is the application route's template. Templates of the application's child routes get appended to the application template's outlet by default and ember updates the URL to reflect the current route.<code></code></p>
 	<p>Click on the route links on the left to see this in action</p>
 	{{outlet}}
-	<pre>
-	<code>
-import Ember from 'ember';
-import config from './config/environment';
-
-var Router = Ember.Router.extend({
-  location: config.locationType
-});
-
-Router.map(function() {
-  this.route("route1");
-  this.route("route2");
-  this.route("route3");
-  this.route("route4");
-  this.route("route5");
-});
-
-export default Router;
-	</code>
-	</pre>
 </div>
 
